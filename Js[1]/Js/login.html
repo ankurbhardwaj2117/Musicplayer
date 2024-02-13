@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="./Login.js"></script>
+</head>
+
+<body>
+    <div class="login-wrapper">
+        <form action="" class="form">
+            <h1>Login</h1>
+            <div class="input-group">
+                <input type="text" name="loginUser" autocomplete=" off" id="loginUser" required />
+                <label for="loginUser">User Name</label>
+            </div>  
+            <div class="input-group">
+                <input type="password" name="loginPassword" id="loginPassword" required />
+                <label for="loginPassword">Password</label>
+            </div>
+            <input type="submit" value="Login" onclick="filedvalidation()" class="submit-btn" />
+        </form>
+    </div>
+</body>
+
+</html>
